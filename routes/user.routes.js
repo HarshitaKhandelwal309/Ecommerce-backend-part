@@ -3,7 +3,7 @@ const router = express.Router();
 const checkExists = require('../middlewares/check')
 const checkBefore = require('../middlewares/checkBeforeSignin')
     //import signin and signup controller
-const { signInController, signUpController } = require('../../E-commerce-server/controllers/user.controller');
+const { signInController, signUpController } = require('../controllers/user.controller');
 
 //all routes 
 //Routes for signIn 
