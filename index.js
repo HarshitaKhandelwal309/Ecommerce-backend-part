@@ -23,7 +23,7 @@ app.use([user_router, product_router, order_routes, wishlist_routes])
 
 
 //listening to port
-const port = process.env.PORT || 4000;
+const port = Process.env.PORT || 4000;
 app.listen(port, function() {
     console.log(`server is up on port ${port}`);
 })
